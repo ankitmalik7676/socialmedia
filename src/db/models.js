@@ -2,9 +2,9 @@ const Sequelize = require('sequelize')
 
 const db = new Sequelize ({
     dialect :  'mysql',
-    database: 'cbsocialmediadb',
-    username: 'nsocialuser',
-    password: 'cbsocialpass'
+    database: 'socialmediadb',
+    username: 'socialmediauser',
+    password: 'socialpass'
 })
 
 const Users = db.define ('user' , {
