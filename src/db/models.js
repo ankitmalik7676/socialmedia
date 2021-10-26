@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 
 const db = new Sequelize ({
-    dialect:  'mysql',
+    dialect :  'mysql',
     database: 'cbsocialmediadb',
     username: 'nsocialuser',
     password: 'cbsocialpass'

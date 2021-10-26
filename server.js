@@ -1,6 +1,6 @@
 const express = require ('express');
 
-const { db } = require ('./db/models.js');
+const { db } = require ('./db/models');
 
 const app = express()
 
